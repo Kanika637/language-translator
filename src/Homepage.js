@@ -21,7 +21,7 @@ function Homepage() {
   <div className="App">
       
       <div className="content">
-      <header className="heading"><span className='head-main'>LANGUAGE TRANSLATOR</span></header>
+      <header className="heading">LANGUAGE TRANSLATOR</header>
       
       <OcrReader onReadOcrData={onReadOcrData} onRemoveClicked={onRemoveClicked}
       />

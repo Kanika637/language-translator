@@ -21,7 +21,8 @@
     font-family: 'Catamaran', sans-serif;
     margin-bottom: 15px;
     outline: none !important;
-    width: 80%;
+    width: 20%;
+    margin-left: 60%;
     border-radius: 5px;
     /* padding-top: 0.5%; */
     font-size: 1.3rem;
@@ -45,7 +46,7 @@
     height: 90px;
     padding-top: 1.5%;
     padding-bottom: 0.5%;
-    font-family: 'Abril Fatface', cursive;
+    
 }
 .head-main{
     font-family:'Orbitron', sans-serif;
