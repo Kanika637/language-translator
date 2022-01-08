@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import Footer from "./Footer"
+import "./translate.css"
 import {
     Form,
     TextArea,
@@ -114,6 +116,7 @@ function Translate() {
                     </Form>
                 </div>
             </div>
+            <Footer/>
             
         </div>
     )

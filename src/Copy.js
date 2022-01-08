@@ -43,7 +43,6 @@ const copyText=(e)=>{
 return (
     <div>
       <form onSubmit={(e) => handleSubmit(e)}>
-        <div>Edit the recognized text:</div>
         <div>
           <textarea
             rows="15"
@@ -56,7 +55,7 @@ return (
         </div>
         
         <div>
-          <button className="copy_button" onClick={copyText} disabled={smsSendingStatus == "Sending SMS..."} type="submit">Copy</button>
+          <button className="copy_button" onClick={copyText} disabled={smsSendingStatus == "Copying..."} type="submit">Copy</button>
         </div>
       </form>
       <div className="status">

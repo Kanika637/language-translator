@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import OcrReader from "./OcrReader"
 import Copy from "./Copy"
 import './Homepage.css';
+import Footer from "./Footer"
  
 function Homepage() {
   const [ocrData, setOcrData] = useState("")
@@ -20,13 +21,13 @@ function Homepage() {
   <div className="App">
       
       <div className="content">
-      <header className="heading">Welcome to the <span className='head-main'>LANGUAGE TRANSLATOR</span></header>
+      <header className="heading"><span className='head-main'>LANGUAGE TRANSLATOR</span></header>
       
       <OcrReader onReadOcrData={onReadOcrData} onRemoveClicked={onRemoveClicked}
       />
       {ocrData && <Copy readText={ocrData}/>}
       </div>
-       
+    <Footer/>   
     </div>
     
   );
