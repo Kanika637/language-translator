@@ -1,0 +1,11 @@
+.text_input{
+    width: 50%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.copy_button{
+    font-size: large;
+    width: 6%;
+    background-color: #041C32;
+    text-align: center;
+}

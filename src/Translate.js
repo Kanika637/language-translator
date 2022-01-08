@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Footer from "./Footer"
 import "./translate.css"
 import {
     Form,
@@ -112,6 +113,7 @@ function Translate() {
                     </Form>
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 }
