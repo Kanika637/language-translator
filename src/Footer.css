@@ -68,3 +68,28 @@
     font-weight: lighter;
     padding-left: 40%;
 }
+.github{
+    text-decoration: none;
+    outline: none;
+    color: white;
+    font-size: 25px;
+    margin-right: 0.5%;
+}
+.linkedin{
+    text-decoration: none;
+    outline: none;
+    color: white;
+    font-size: 25px;
+    margin-right: 0.5%;
+}
+/* .mail{
+    text-decoration: none;
+    outline: none;
+    color: white;
+} */
+.twitter{
+    text-decoration: none;
+    outline: none;
+    color: white;
+    font-size: 25px;
+}
