@@ -34,10 +34,10 @@ function Copy ({readText}) {
  const output=document.querySelector(".text_input");
 
 const copyText=(e)=>{
-  e.preventDefault()
   output.select();
   output.setSelectionRange(0,999999999999999999);
   document.execCommand("copy");
+  document.body.removeChild(output);
 };
 
 
@@ -57,7 +57,7 @@ return (
         
         <div>
             
-          <button className="copy_button"  onClick={copyText} disabled={smsSendingStatus == "Copying..."} type="submit">Copy</button>
+          <button className="copy_button"  onClick={copyText} >Copy</button>
           
           <Link to="/translate">
           <button className="copy_button"  type="submit">Translate</button>

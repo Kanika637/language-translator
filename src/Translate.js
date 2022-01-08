@@ -1,21 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import Footer from "./Footer"
 import "./translate.css"
-import {
-    Form,
-    TextArea,
-    Button,
-    Icon
-} from 'semantic-ui-react';
+import {Form,TextArea,Button,Icon} from 'semantic-ui-react';
 import axios from 'axios';
 import "./translate.css"
 
 function Translate() {
     const [inputText, setInputText] = useState('');
-    const [resultText, setResultText] = useState('');
+    const [detectLanguageKey, setdetectedLanguageKey] = useState('')
     const [selectedLanguageKey, setLanguageKey] = useState('')
     const [languagesList, setLanguagesList] = useState([])
-    const [detectLanguageKey, setdetectedLanguageKey] = useState('')
+    const [resultText, setResultText] = useState('');
     
     
     const getLanguageSource = () => {
@@ -74,7 +69,7 @@ function Translate() {
     }, [inputText])
     return (
         <div className='translate_content'>
-            <header className="heading"> <span className='head-main'>LANGUAGE TRANSLATOR</span></header>
+            <header className="heading"> LANGUAGE TRANSLATOR</header>
             <div className="app-header">
                 <h2 className="header"></h2>
             </div>
@@ -106,13 +101,11 @@ function Translate() {
                         />
 
                         <Button 
-                            color="orange" 
                             size="large" 
                             onClick={translateText}
                             className="trans_btn"
                         >
-                            <Icon name='translate' />
-                            Translate</Button>
+                    Translate</Button>
                     </Form>
                 </div>
             </div>

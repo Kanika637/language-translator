@@ -72,8 +72,7 @@ function OcrReader({onReadOcrData, onRemoveClicked}) {
                 setSelectedImage(event.target.files[0])
               }}
             />
-            {/* <p className="para-1"><span className="head-1">Supported Formats: </span>bmp, jpg, png, pbm</p>
-            <p className="para-2"><span className="head-2">Supported Languages: </span>English, Hindi, Chinese, French, Tamil, Telugu, Marathi, Spanish, Turkish, Greek, Urdu, Gujrati, Nepali.</p> */}
+            
           </>
         }
       </div>
