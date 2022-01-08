@@ -1,4 +1,5 @@
 import { useEffect, useState, useRef } from "react"
+import {Link} from "react-location"
 import './copy.css';
 // import "intl-tel-input/build/css/intlTelInput.css"
 // import intlTelInput from "intl-tel-input"
@@ -55,7 +56,12 @@ return (
         </div>
         
         <div>
-          <button className="copy_button" onClick={copyText} disabled={smsSendingStatus == "Copying..."} type="submit">Copy</button>
+            
+          <button className="copy_button"  onClick={copyText} disabled={smsSendingStatus == "Copying..."} type="submit">Copy</button>
+          
+          <Link to="/translate">
+          <button className="copy_button"  type="submit">Translate</button>
+          </Link>
         </div>
       </form>
       <div className="status">

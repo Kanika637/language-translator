@@ -74,7 +74,7 @@ function Translate() {
     }, [inputText])
     return (
         <div className='translate_content'>
-            <header className="heading">Welcome to the <span className='head-main'>LANGUAGE TRANSLATOR</span></header>
+            <header className="heading"> <span className='head-main'>LANGUAGE TRANSLATOR</span></header>
             <div className="app-header">
                 <h2 className="header"></h2>
             </div>

@@ -20,10 +20,7 @@ export const routes: Route[] = [
         path:"/footer",
         element:<Footer/>
 }
-// {
-//         path:"/t",
-//         element:<Translate2/>
-// },
+
 
 
 ];
