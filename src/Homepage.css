@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Source+Serif+4&display=swap');
+
 
 .heading{
     background-color: #041C32;
@@ -7,8 +7,4 @@
     padding-top: 1.5%;
     padding-bottom: 0.5%;
     font-family: 'Libre Baskerville', serif;
-}
-.head-main{
-    font-family: 'Libre Baskerville', serif;
-    font-weight: bolder;
 }

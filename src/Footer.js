@@ -14,7 +14,7 @@ const Footer = () => {
         </div>
       <div className="main-content">
         <div className="container-1">
-        <h2 className="f-format">FILE FORMAT SUPPORTED</h2>
+        <h2 className="f-format">FILE FORMATS SUPPORTED</h2>
         <p className="png">
           Jpg <br></br>
           Png <br></br>
