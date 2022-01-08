@@ -14,39 +14,41 @@ const Footer = () => {
         </div>
       <div className="main-content">
         <div className="container-1">
-        <h2 className="f-format">File Format Supported</h2>
+        <h2 className="f-format">FILE FORMAT SUPPORTED</h2>
         <p className="png">
-          JPG <br></br>
-          PNG <br></br>
-          PBM <br></br>
-          JPEG <br></br>
-          WAV
+          Jpg <br></br>
+          Png <br></br>
+          Pbm <br></br>
+          Jpeg <br></br>
+          Wav
         </p>
         </div>
 
         <div className="container-2">
-          <h2 className="l-format">Languages Supported</h2>
+          <h2 className="l-format">LANGUAGES SUPPORTED</h2>
           <div className="languages">
           <div className="language-1">
             <p>
-          HINDI <br></br>
-          ENGLISH <br></br>
-          FRENCH <br></br>
-          CHINESE <br></br>
-          TAMIL <br></br>
-          TELUGU <br></br>
-          MARATHI <br></br>
+          English <br></br>
+          Spanish <br></br>
+          Chinese <br></br>
+          Japanese <br></br>
+          Korean <br></br>
+          Portuguese<br></br>
+          French <br></br>
+          Italian 
           </p>
           </div>
         <div className="language-2">
           <p>
-          SPANISH <br></br>
-          TURKISH <br></br>
-          GREEK <br></br>
-          URDU <br></br>
-          GUJRATI <br></br>
-          NEPALI <br></br>
-          AND MANY MORE 
+          Russian <br></br>
+          Arabic <br></br>
+          German <br></br>
+          Hindi <br></br>
+          Polish <br></br>
+          Turkish <br></br>
+          Ukrainian <br></br>
+          Vietnamese 
         </p>
         </div>
         </div>
