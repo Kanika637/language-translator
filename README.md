@@ -3,11 +3,12 @@
 We often go to foreign places for a visit like for a holiday or for work purpose and often find it difficult to communicate as we are not really familiar with the specific native language of that place, for instance Chinese , Arabic etc..Imagine a situation you are in china and u see a sign board of a restaurant but you dont know what's written in there, here comes our role, you just need to click a picture of the text and upload it and not only you will get the trnaslated version in your choosen language but it will also recognize the text and will give you a text format which you can edit according to you.It supports multiple languages like chinese, spanish, arabic, hindi, english and many more...
 It uses tessareact.js which is a javascript library which converts an image into text format and uses Libre Translate API for detecting the language and translating it further.
 
-![Screenshot (13)](https://user-images.githubusercontent.com/84350895/148645529-94a98137-1252-42f4-ad25-e956d9054d70.png)
+![Screenshot (13)](https://user-images.githubusercontent.com/90816300/148645352-8dff69d9-836e-438c-b6d5-91aa2e04397b.png)
 
-![Screenshot (14)](https://user-images.githubusercontent.com/84350895/148645531-7b5e1e08-105b-44e1-bab0-76ce82238bd9.png)
+![Screenshot (14)](https://user-images.githubusercontent.com/90816300/148645358-63670a54-607b-4bd7-b2fa-9741c594181f.png)
 
-![Screenshot (16)](https://user-images.githubusercontent.com/84350895/148648592-e1e2c82e-588d-4ced-a8eb-2cc1eda027a3.png)
+![Screenshot (16)](https://user-images.githubusercontent.com/90816300/148645361-a6d2fae9-e918-422f-95b4-a60320e49a84.png)
+
 
 # Getting Started with Create React App
 

@@ -1,7 +1,10 @@
 import React from "react"
 import "./Footer.css"
-import { FaLanguage } from "react-icons/fa";
-
+import { FaLanguage} from "react-icons/fa";
+import { GoMarkGithub} from "react-icons/go";
+import {IoLogoTwitter} from "react-icons/io5";
+import {IoMail} from "react-icons/io5";
+import {IoLogoLinkedin} from "react-icons/io";
 const Footer = () => {
     return ( 
 
@@ -53,6 +56,12 @@ const Footer = () => {
         </div>
         </div>
         </div>
+      </div>
+      <div className="icon-2">
+      <a target="_blank" className="github" href="https://github.com/Kanika637/language-translator"><GoMarkGithub/> </a>
+      <a target="_blank" className="linkedin" href="https://www.linkedin.com/in/kanika-gola-999968204/"> <IoLogoLinkedin/> </a>
+      {/* <a className="mail" href="https://mail.google.com/mail/u/?authuser=jaideep2912@gmail.com" ><IoMail/> </a> */}
+      <a target="_blank" className="twitter" href="https://twitter.com/jai_solania_29"><IoLogoTwitter/> </a>
       </div>
       </div>
     )}
