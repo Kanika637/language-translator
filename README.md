@@ -1,4 +1,14 @@
-                                          
+# Language Translator
+
+We often go to foreign places for a visit like for a holiday or for work purpose and often find it difficult to communicate as we are not really familiar with the specific native language of that place, for instance Chinese , Arabic etc..Imagine a situation you are in china and u see a sign board of a restaurant but you dont know what's written in there, here comes our role, you just need to click a picture of the text and upload it and not only you will get the trnaslated version in your choosen language but it will also recognize the text and will give you a text format which you can edit according to you.It supports multiple languages like chinese, spanish, arabic, hindi, english and many more...
+It uses tessareact.js which is a javascript library which converts an image into text format and uses Libre Translate API for detecting the language and translating it further.
+
+![Screenshot (13)](https://user-images.githubusercontent.com/84350895/148645529-94a98137-1252-42f4-ad25-e956d9054d70.png)
+
+![Screenshot (14)](https://user-images.githubusercontent.com/84350895/148645531-7b5e1e08-105b-44e1-bab0-76ce82238bd9.png)
+
+![Screenshot (16)](https://user-images.githubusercontent.com/84350895/148645534-f574c368-588a-4c13-b350-b2eec8f6c34c.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
