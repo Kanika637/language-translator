@@ -33,7 +33,7 @@ function Copy ({readText}) {
  const output=document.querySelector(".text_input");
 
 const copyText=(e)=>{
-
+  e.preventDefault()
   output.select();
   output.setSelectionRange(0,999999999999999999);
   document.execCommand("copy");

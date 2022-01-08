@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@600&family=Fuzzy+Bubbles&family=Hind:wght@300&family=Maven+Pro&family=PT+Sans&family=Poppins:wght@200&family=Varela+Round&display=swap');
 
 .app-header{
   text-align: center;
@@ -17,12 +18,41 @@
   
   .language-select{
     height: 40px !important;
+    font-family: 'Catamaran', sans-serif;
     margin-bottom: 15px;
     outline: none !important;
-    width: 100%;
+    width: 80%;
     border-radius: 5px;
+    /* padding-top: 0.5%; */
+    font-size: 1.3rem;
+    padding-left: 1%;
+    /* margin-bottom: 1%; */
+    
   }
   TextArea{
-      width: 200%;
+      width: 80%;
+      padding-left: 1%;
+      padding-top: 0.5%;
+      font-family: 'Catamaran', sans-serif;
+      font-size: 1.4rem;
       border-radius: 5px;
+      margin-bottom: 1%;
+    
   }
+  .heading{
+    background-color: #041C32;
+    color: white;
+    height: 90px;
+    padding-top: 1.5%;
+    padding-bottom: 0.5%;
+    font-family: 'Abril Fatface', cursive;
+}
+.head-main{
+    font-family:'Orbitron', sans-serif;
+    font-weight: bolder;
+}
+.trans_btn{
+    font-size: 1.6rem;
+    background-color: #041C32;
+    margin-top: 3%;
+}
