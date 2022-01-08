@@ -7,7 +7,7 @@ It uses tessareact.js which is a javascript library which converts an image into
 
 ![Screenshot (14)](https://user-images.githubusercontent.com/84350895/148645531-7b5e1e08-105b-44e1-bab0-76ce82238bd9.png)
 
-
+![Screenshot (16)](https://user-images.githubusercontent.com/84350895/148648592-e1e2c82e-588d-4ced-a8eb-2cc1eda027a3.png)
 
 # Getting Started with Create React App
 
