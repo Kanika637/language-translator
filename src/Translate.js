@@ -8,6 +8,7 @@ import {
     Icon
 } from 'semantic-ui-react';
 import axios from 'axios';
+import "./translate.css"
 
 function Translate() {
     const [inputText, setInputText] = useState('');
@@ -72,9 +73,10 @@ function Translate() {
        getLanguageSource()
     }, [inputText])
     return (
-        <div>
+        <div className='translate_content'>
+            <header className="heading">Welcome to the <span className='head-main'>LANGUAGE TRANSLATOR</span></header>
             <div className="app-header">
-                <h2 className="header">Translator</h2>
+                <h2 className="header"></h2>
             </div>
 
             <div className='app-body'>
@@ -107,6 +109,7 @@ function Translate() {
                             color="orange" 
                             size="large" 
                             onClick={translateText}
+                            className="trans_btn"
                         >
                             <Icon name='translate' />
                             Translate</Button>
@@ -114,6 +117,7 @@ function Translate() {
                 </div>
             </div>
             <Footer/>
+            
         </div>
     )
 }
