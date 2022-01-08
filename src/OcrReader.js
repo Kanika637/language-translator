@@ -22,7 +22,7 @@ function OcrReader({onReadOcrData, onRemoveClicked}) {
       await worker.load()
       // Set the language to recognize
 
-      await worker.loadLanguage('eng+spa+chi_sim+jpn+kor+por+fra+ita+rus+ara+deu+hin+pol+tur+vie');
+      await worker.loadLanguage('eng+spa+chi_sim+jpn+kor+por+fra+ita+rus+ara+deu+hin+pol+tur+ukr+vie');
       await worker.initialize('eng+spa+chi_sim+jpn+kor+por+fra+ita+rus+ara+deu+hin+pol+tur+ukr+vie');
       
 
