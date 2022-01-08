@@ -1,0 +1,12 @@
+.heading{
+    background-color: #041C32;
+    color: white;
+    height: 90px;
+    padding-top: 1.5%;
+    padding-bottom: 0.5%;
+    font-family: 'Abril Fatface', cursive;
+}
+.head-main{
+    font-family:'Orbitron', sans-serif;
+    font-weight: bolder;
+}
