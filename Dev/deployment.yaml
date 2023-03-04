@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: language-translator
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: language-translator
+  template:
+    metadata:
+      labels:
+        app: language-translator
+    spec:
+      containers:
+      - name: language-translator
+        image: jaideep29/language-translator:language
+        ports:
+        - containerPort: 3000
