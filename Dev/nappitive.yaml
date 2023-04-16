@@ -1,0 +1,27 @@
+---
+apiVersion: core.oam.dev/v1beta1
+kind: Application
+metadata:
+  name: language-transaltor-deploy
+  annotations:
+    version: new
+    description: A language translator
+spec:
+  components:
+    - name: language-transaltor-deploy
+      type: webservice
+      properties:
+        image: jaideep29/language-translator:language
+        ports:
+          - port: 3000
+            expose: true
+      traits:
+        - type: napptive-ingress
+          properties:
+            port: 3000
+            path: /
+
+
+
+
+

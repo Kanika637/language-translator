@@ -1,0 +1,50 @@
+apiVersion: core.oam.dev/v1beta1
+kind: Application
+metadata:
+  name:  language-translator
+spec:
+  components:
+    - name: language-translator
+      type: org-webserver
+
+---
+
+apiVersion: core.oam.dev/v1beta1
+kind: ComponentDefinition
+metadata:
+  annotations:
+    definition.oam.dev/description: Deploy the language-translator.
+  name: language-translator
+spec:
+  schematic:
+    cue:
+      template: |
+        output: {
+        	apiVersion: "apps/v1"
+        	kind:       "Deployment"
+        	spec: {
+        		selector: matchLabels: "app.oam.dev/component": context.name
+
+        		template: {
+        			metadata: labels: {
+        				"app.oam.dev/name":      context.appName
+        				"app.oam.dev/component": context.name
+        			}
+
+        			spec: {
+        				containers: [{
+        					name:  context.name
+        					image: "jaideep29/language-translator:language"
+        					}
+        				]
+        			}
+        		}
+        	}
+        }
+        
+        
+workload:
+    definition:
+      apiVersion: apps/v1
+      kind: Deployment
+    type: deployments.apps
